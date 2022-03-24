@@ -1,11 +1,11 @@
 {
   "name": "zlink-front",
-  "version": "1.0.7",
+  "version": "1.0.13",
   "description": "front common api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile":"babel jsx -presets components -out-dir lib"
+    "compile":"babel components --out-dir lib/components && babel utils --out-dir lib/utils "
   },
   "repository": {
     "type": "git",
@@ -31,5 +31,5 @@
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4"
   },
-  "keywords": []
+  "keywords": ["zlink", "react"]
 }
