@@ -1,11 +1,35 @@
 {
   "name": "zlink-front",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.7",
+  "description": "front common api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile":"babel jsx -presets components -out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jayouwu/front.git"
   },
   "author": "jayouwu",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@ant-design/pro-form": "^1.59.3",
+    "@ant-design/pro-table": "^2.68.3",
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "antd": "^4.18.2",
+    "babel-loader": "^8.2.4",
+    "gh-pages": "^3.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.14.3",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "keywords": []
 }

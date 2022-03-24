@@ -1,3 +1,6 @@
-const add = (a, b) => a + b;
-const sub = (a, b) => a - b;
-export { add, sub }
+import Loading from "./lib/Basic/Loading";
+import ProTableCustom from "./lib/ProTableCustom/Index";
+export{ 
+  Loading,
+  ProTableCustom
+}
